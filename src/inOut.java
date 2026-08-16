@@ -25,6 +25,8 @@ public class inOut {
         System.out.println("Introduce a Double (Float): ");
         double valueFromStr2 = Double.parseDouble(input.nextLine());
         System.out.println("The value is: "+ valueFromStr2 + ((Object) valueFromStr2).getClass().getSimpleName());
+        //display in dollar format
+        System.out.printf("\tValue in dollar is: $%.2f%n", valueFromStr2);
 
     }
 }
