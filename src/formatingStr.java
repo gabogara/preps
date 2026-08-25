@@ -12,13 +12,17 @@ public class formatingStr {
 
 
         // large format
+        var workerId = 5;
         var largeMsg = """
                 %nDetail person: \s
                 -------------------------
                 \tName: %s
                 \tAge: %d
+                \tWorker ID: %04d
                 \tSalary: %.2f
-                """.formatted(name, age, salary);
+                """.formatted(name, age,workerId, salary);
         System.out.println("largeMsg = " + largeMsg);
+
+        // using
     }
 }
