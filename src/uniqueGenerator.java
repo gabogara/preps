@@ -22,7 +22,7 @@ public class uniqueGenerator {
 
         System.out.println("Please Introduce date of year (YYYY): ");
         int year = Integer.parseInt(input.nextLine());
-        int twoLastNum = 0;
+        int twoLastNum;
         twoLastNum = year % 100;
 
 
