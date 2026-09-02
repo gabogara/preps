@@ -36,6 +36,5 @@ public class hotelReservation {
                 Room with an ocean view: %s
                 """, nameClient, numberOfNights, totalCost,
                 conVistaAlMar ? "Yes :)" : "No :(");
-
     }
 }
