@@ -22,4 +22,9 @@ public class Song {
     public String getVideoUrl() {
         return mVideoUrl;
     }
+
+    @Override
+    public String toString(){
+        return String.format("Song: %s by %s.%n",mTitle,mArtist);
+    }
 }
