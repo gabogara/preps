@@ -1,3 +1,5 @@
+package basicexercises;
+
 public class formatingStr {
     public static void main(String[] args) {
         var name = "Gabo";

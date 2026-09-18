@@ -1,3 +1,5 @@
+package basicexercises;
+
 public class matrix {
     public static void main(String[] args) {
         String[] friends = {"Brian", "Ronald", "Laura"};

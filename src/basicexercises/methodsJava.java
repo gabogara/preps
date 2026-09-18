@@ -1,3 +1,5 @@
+package basicexercises;
+
 public class methodsJava {
     public static void main(String[] args) {
         var cadena1 = "Hello world";

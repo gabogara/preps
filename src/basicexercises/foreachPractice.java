@@ -1,4 +1,4 @@
-
+package basicexercises;
 
 public class foreachPractice {
     public static void main(String[] args) {

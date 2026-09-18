@@ -1,3 +1,5 @@
+package basicexercises;
+
 public class onlineStore {
     public static void main(String[] args) {
         String productName;

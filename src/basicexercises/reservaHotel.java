@@ -1,3 +1,5 @@
+package basicexercises;
+
 public class reservaHotel {
     public static void main(String[] args) {
         String clientName = "Initial Name";

@@ -1,3 +1,5 @@
+package basicexercises;
+
 import java.util.Scanner;
 
 public class ticketSelling {

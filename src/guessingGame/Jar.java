@@ -3,9 +3,8 @@ package guessingGame;
 import java.util.Random;
 
 public class Jar{
-
-    private String itemName;
-    private int maxItems;
+    private final String  itemName;
+    private final int maxItems;
     private int numItems;
 
     // Creates a jar with an item type and a maximum capacity.
@@ -33,7 +32,6 @@ public class Jar{
     public void fill(){
         Random random = new Random();
         int randomNumber = random.nextInt(maxItems)+1;
-        // Uncomment this line when testing the generated number.
         //System.out.printf("The random number is %d.%n", randomNumber);
         this.numItems = randomNumber;
     }

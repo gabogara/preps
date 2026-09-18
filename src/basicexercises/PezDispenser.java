@@ -1,3 +1,5 @@
+package basicexercises;
+
 class PezDispenser {
 
     private final String characterName;
