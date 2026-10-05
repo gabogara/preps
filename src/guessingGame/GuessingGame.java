@@ -13,7 +13,8 @@ public class GuessingGame {
         System.out.printf("------------------------------%n");
         System.out.println(" ");
         Jar jar = new Jar(itemName, maxItems);
-        System.out.printf("The created Object is: %s and have %d items%n", jar.getItemName(),jar.getMaxItems()); jar.fill();
+
+        jar.fill();
 
         boolean guessedCorrectly = false;
         int attempt; int numAttempts = 0;
@@ -23,11 +24,14 @@ public class GuessingGame {
 
 
         while(!guessedCorrectly){
-            System.out.printf("How many %s are in the jar? Pick a number between 1 and %d: ", jar.getItemName(), jar.getMaxItems()); attempt = Integer.parseInt(input.nextLine());
+            System.out.printf("How many %s are in the jar? Pick a number between 1 and %d: ", jar.getItemName(), jar.getMaxItems());
+            attempt = Integer.parseInt(input.nextLine());
+
             if(attempt <1 || attempt > maxItems){
                 System.out.printf("%nThe picked number must be between 1 and %d.%n", maxItems);
                 continue;
-            } numAttempts++;
+            }
+            numAttempts++;
             checkEntry(attempt, numAttempts, jar);
             if(attempt == jar.getNumItems()){
                 guessedCorrectly = true;
