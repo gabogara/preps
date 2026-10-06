@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.artihmetics;
 
 public class Person {
  private String firstName;
@@ -29,6 +29,11 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person Created: " + firstName + " " + lastName + ", " + age + " years old";
     }
 
     public void setAge(int age) {
