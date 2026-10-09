@@ -18,6 +18,5 @@ public class ClassAndClassNested {
         public Person(String firstName){
             this.firstName = firstName;
         }
-
     }
 }
